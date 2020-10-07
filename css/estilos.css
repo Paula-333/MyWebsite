@@ -1,0 +1,29 @@
+body {
+    background: #5c4444;
+}
+
+.cuadrado{
+   
+    height: 10em;
+    border-radius: 7%;
+    background: #c58177;
+}
+
+
+.posicion{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.aboutMe{
+    margin: 3em;
+    font-size: large;
+    font-style: italic;
+    
+
+}
+
+.name{
+    font-style: italic;
+}
