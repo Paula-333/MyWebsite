@@ -12,26 +12,17 @@ body {
 
 .myName{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #707283;
     position: relative;
     right: 7em;
     margin-top: 0.5em;
+    
 }
 .home{
     flex-direction: column;
     margin-top: 0.5em;
     left: 3em;
+    
 }
-
-
-
-
-
-
-
-
-
-
 
 .posicion{
     display: flex;
