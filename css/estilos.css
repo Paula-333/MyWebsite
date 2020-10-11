@@ -1,16 +1,16 @@
 body {
-    background: #e7d3ba;
+    background: #a7aeb3;
 }
 
 /*....HOME....*/
 
 
 #headerColor{
-    background: #a7aeb3;
-    color: #707283;
+    background: #707283;
+    color: #a7aeb3;
     height: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #707283;
+    color: #a7aeb3;
     flex-direction: row;
     
 }
@@ -122,10 +122,8 @@ body {
 
 img {
     width: 270px;
-    height: 350px;
     position: relative;
     top: -21em;
-    left: 15em;
+    left: 12em;
    
-
 }
