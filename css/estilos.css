@@ -31,43 +31,41 @@ body {
 
 /*...DATOS PERSONALES...*/
 
+.rounded-circle{
+    position: relative;
+    top: -2.5em;
+
+}
+
 #informacion{
     display: flex;
-    flex-direction: row;
+    justify-self: center;
     margin: 3em ;
     
 }
 
-h3{
-    
+h4{
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #707283;
-   margin-right: 5em;
+   
 
 }
 
 .aboutMe{
     color: #707283;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-right: 5em;
-}
-
-/*....LENGUAJES....*/
-
-.languages{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #707283;
-      
-}
-.skills{
     
+}
+.korean{
     color: #707283;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
-    
 }
-
+.enjoy{
+    color: #707283;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /*....PAGINA1....*/
 
 h2{
