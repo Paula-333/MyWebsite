@@ -98,26 +98,51 @@ body {
 
 
 /*....PAGINA1....*/
-.posicion2{
-    display: flex;
-    justify-content: flex-start;
-   
-}
-    
-.con {
-    margin-top: 3em;
-    margin-left: 4em;
-    font-size: large;
-    
+
+h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #707283;
+    display: flex;
+    justify-content: center;
+   
+    
 }
 
-.con2{
-    margin-left: 3em;
-    color: #707283;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
 }
+
+.nombre{
+    width: 30em;
+    display: flex;
+    align-self: center;
+}
+.email{
+    width: 30em;
+    display: flex;
+    align-self: center;
+}
+.descripcion{
+    width: 30em;
+    height: 10em;
+    display: flex;
+    align-self: center;
+}
+.button{
+    width: 5em;
+    margin-top: 1em;
+    display: flex;
+    align-self: center;
+    background: linear-gradient(to bottom, #5a9ece 31%, #c8d2ee 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
 /*....IMAGEN....*/
 
 img {
@@ -125,5 +150,6 @@ img {
     position: relative;
     top: -21em;
     left: 12em;
+    border-radius: 10em;
    
 }
