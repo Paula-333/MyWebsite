@@ -1,5 +1,5 @@
 body {
-    background: #a7aeb3;
+    background: #f4efea;
 }
 
 /*....HOME....*/
@@ -8,16 +8,12 @@ body {
 #headerColor{
     background: #707283;
     color: #a7aeb3;
-    height: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #a7aeb3;
-    flex-direction: row;
     
 }
 
 .name{
-    display: flex;
-    justify-content: flex-start;
+    
     position: relative;
     left: 1em;
     top: 1em;
@@ -27,75 +23,50 @@ body {
 
     display: flex;
     justify-content: flex-end;
-    flex-direction: row;
     position: relative;
     right:1.5em;
     top: -1em;
-    
+    color: #a7aeb3 ;
 }
 
 /*...DATOS PERSONALES...*/
-.aboutMe{
-    margin-top: 3em;
-    margin-left: 4em;
+
+#informacion{
+    display: flex;
+    flex-direction: row;
+    margin: 3em ;
+    
+}
+
+h3{
+    
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #707283;
-    display: flex;
-    justify-content: center;
+   margin-right: 5em;
 
 }
 
-.datos{
-   
-    margin-left: 3em;
+.aboutMe{
     color: #707283;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 2em;
+    margin-right: 5em;
 }
 
-/*....IDIOMAS....*/
+/*....LENGUAJES....*/
+
 .languages{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #707283;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 2em;
+      
 }
-.idiomas{
-    margin-left: 3em;
-    color: #707283;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 2em;
-}
-
-/*....RRSS...*/
-.findMe{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #707283;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 2em;
-}
-
-.git {
-    margin-left: 3em;
-    color: #707283;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    justify-content: center;
+.skills{
     
-
+    color: #707283;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
 }
-
 
 /*....PAGINA1....*/
 
@@ -105,7 +76,6 @@ h2{
     display: flex;
     justify-content: center;
    
-    
 }
 
 #formulario{
@@ -121,17 +91,20 @@ h2{
     display: flex;
     align-self: center;
 }
+
 .email{
     width: 30em;
     display: flex;
     align-self: center;
 }
+
 .descripcion{
     width: 30em;
     height: 10em;
     display: flex;
     align-self: center;
 }
+
 .button{
     width: 5em;
     margin-top: 1em;
@@ -139,17 +112,45 @@ h2{
     align-self: center;
     background: linear-gradient(to bottom, #5a9ece 31%, #c8d2ee 100%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20%;
+}
+
+/*....PAGINA2...*/
+
+.findMe{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #707283;
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+}
+
+.git {
+    
+    color: #707283;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
     
 }
 
+.link{
+    color: #707283;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+    
 
-/*....IMAGEN....*/
+/*...FOOTER...*/
 
-img {
-    width: 270px;
-    position: relative;
-    top: -21em;
-    left: 12em;
-    border-radius: 10em;
-   
+#footer {
+    background: #707283;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a7aeb3;
+    display: flex;
+    justify-content: center;
 }
